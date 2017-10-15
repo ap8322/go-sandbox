@@ -13,7 +13,7 @@ func tak(x,y,z int) int {
 
 }
 
-func main() {
+func takTest() {
 	s := time.Now()
 	fmt.Println(tak(22,11,0))
 	e := time.Now().Sub(s)
