@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  revision = "b26d9c308763d68093482582cea63d69be07a0f0"
+  version = "v0.3.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/gdamore/encoding"
   packages = ["."]
@@ -16,8 +22,8 @@
 [[projects]]
   name = "github.com/junegunn/fzf"
   packages = ["src","src/algo","src/tui","src/util"]
-  revision = "e89eebb7bae2bb3f080568dff20b341ed669fd3b"
-  version = "0.17.0"
+  revision = "0b33dc6ce19357f7b32857dbb1fecd181fb899e8"
+  version = "0.17.1"
 
 [[projects]]
   branch = "master"
@@ -70,6 +76,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "495666fd55850730a01fa030a910bb100757ee9f9e7e154c388bb462d9547787"
+  inputs-digest = "389141867ff282ae98d573769dfd08be8c025e5fd688d61b09a35fdd757ff336"
   solver-name = "gps-cdcl"
   solver-version = 1

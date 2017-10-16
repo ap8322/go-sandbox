@@ -8,5 +8,5 @@ import (
 func main() {
 	out, _ := exec.Command("ls", "-la").Output()
 
-	fmt.Print(out)
+	fmt.Println(out)
 }
